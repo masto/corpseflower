@@ -11,7 +11,6 @@ use lib 'lib';
 use Connection;
 use Friend;
 
-my $BUF_SIZE = 1024;
 my $IDLE_INTERVAL   = 600; # How often to run idle check
 my $IDLE_PING       = 1; # How many intervals before sending ping
 my $IDLE_DISCONNECT = 3; # How many intervals before disconnect
